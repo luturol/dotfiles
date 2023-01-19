@@ -1,5 +1,5 @@
 # If you cannot execute this file, try change permission on this file using command bellow
-# chmod +x clone.sh
+# chmod +x install_linux.sh
 
 sudo apt-get update
 
@@ -9,7 +9,9 @@ sudo apt install curl
 # Install git
 sudo apt-get install git
 
-cp -f .gitconfig /
+echo "Updating git config"
+
+cp -f .gitconfig /home/"$USER"/
 
 # Install postman
 sudo snap postman
