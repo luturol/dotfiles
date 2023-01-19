@@ -6,6 +6,7 @@
 	symlinks = false
 	autocrlf = true
 	fscache = true
+	editor "vim"
 [color]
 	diff = auto
 	status = auto
