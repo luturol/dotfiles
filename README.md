@@ -5,7 +5,7 @@ A repository for my own configurations
 
 Execute the following command:
 ```bash
-git config --show-origin
+git config --list --show-origin
 ```
 
 ### Credits for some repo's and answers: 
