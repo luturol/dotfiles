@@ -1,6 +1,13 @@
 # dotfiles
 A repository for my own configurations
 
+## How to find .gitconfig file
+
+Execute the following command:
+```bash
+git config --show-origin
+```
+
 ### Credits for some repo's and answers: 
 - [Git AliasRepo](https://github.com/GitAlias/gitalias)
 - [William Ahrons DotFiles](https://github.com/willmenn/dotfiles)
